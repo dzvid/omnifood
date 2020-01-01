@@ -14,3 +14,10 @@ html {
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+
+.row {
+  /* Define a base target screen size */
+  max-width: 1140px;
+  /* Center the rows content */
+  margin: 0 auto;
+}
