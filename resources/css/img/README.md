@@ -1,0 +1,1 @@
+This folder contains images used only in css code, such as background images.
