@@ -21,3 +21,28 @@ html {
   /* Center the rows content */
   margin: 0 auto;
 }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+
+  /* Make a image as big as the browser viewport */
+  /* Makes header height equals to 100% of the viewport */
+  height: 100vh;
+}
+
+/* Remove normalize.css margin on h1 */
+h1 {
+  margin: 0;
+}
+
+.hero-text-box {
+  /* To vertical and horizontal centering the box*/
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
