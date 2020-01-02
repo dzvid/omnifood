@@ -68,9 +68,12 @@ Key tasks:
   [x] Make image darker (Use a linear gradient on top of the image);
   [x] Make a image as big as the browser viewport (Set height to 100vh);
   [x] Make a vertically/horizontally centered box(center the content using top and left positioning, then use transform -50% for (x,y));
+### Part II
   [x] How to design buttons;
   [x] The 4 link states in CSS: link, visited, hover, active (Use pseudo classes to set the desired behavior);
   [x] CSS3 transitions for small animations;
-  [ ] How to create a simple navigation.
+### Part III
+  [x] Add site logo;
+  [x] How to create a simple navigation.
   
  

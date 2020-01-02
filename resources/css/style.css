@@ -1,3 +1,11 @@
+/* 
+Base orange color: #e67e22 
+*/
+
+/* --------------------------- */
+/* BASIC SETUP */
+/* --------------------------- */
+
 * {
   /*Remove margin and padding from all elements and sets box-sizing*/
   margin: 0;
@@ -15,6 +23,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* --------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------- */
+
 .row {
   /* Define a base target screen size */
   max-width: 1140px;
@@ -22,20 +34,10 @@ html {
   margin: 0 auto;
 }
 
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.jpg);
-  background-size: cover;
-  background-position: center;
+/*--------HEADINGS----------*/
 
-  /* Make a image as big as the browser viewport */
-  /* Makes header height equals to 100% of the viewport */
-  height: 100vh;
-}
-
-/* Remove normalize.css margin on h1 */
 h1 {
-  margin-top: 0;
+  margin-top: 0; /* Remove normalize.css margin on h1 */
   margin-bottom: 20px;
 
   color: #fff;
@@ -46,16 +48,7 @@ h1 {
   word-spacing: 4px;
 }
 
-.hero-text-box {
-  /* To vertical and horizontal centering the box*/
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* Desgin buttons */
+/*---------BUTTONS------------*/
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -103,4 +96,65 @@ h1 {
 .btn-ghost:active {
   border: 1px solid #cf6d17;
   color: #fff;
+}
+
+/* --------------------------- */
+/*HEADER */
+/* --------------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+
+  /* Make a image as big as the browser viewport */
+  /* Makes header height equals to 100% of the viewport */
+  height: 100vh;
+}
+
+.hero-text-box {
+  /* To vertical and horizontal centering the box*/
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-top: 20px;
+
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%; /*18px is 90% from base font size*/
+
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
 }
