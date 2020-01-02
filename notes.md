@@ -56,3 +56,21 @@ ORDER to do media queries: base + typography > general layout + grid > page layo
   1. **Fluid grid**: All layout elements are sized in relative units, such as percentages, instead of absolute units like pixels;
   2. **Flexible images**: are also sized in relative units;
   3. **Media queries**: Allow to specify different CSS style rules for different browser widths.
+
+-----------------------------------------------------
+
+## Build header
+
+### Part I
+Key tasks:
+  [x] New HTML elements: header, nav, ul, li;
+  [x] Put text on a  image;
+  [x] Make image darker (Use a linear gradient on top of the image);
+  [x] Make a image as big as the browser viewport (Set height to 100vh);
+  [x] Make a vertically/horizontally centered box(center the content using top and left positioning, then use transform -50% for (x,y));
+  [x] How to design buttons;
+  [x] The 4 link states in CSS: link, visited, hover, active (Use pseudo classes to set the desired behavior);
+  [x] CSS3 transitions for small animations;
+  [ ] How to create a simple navigation.
+  
+ 
