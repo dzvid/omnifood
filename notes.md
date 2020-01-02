@@ -86,9 +86,9 @@ Key tasks:
 
 ## Build features section
 
-[] How to put content on a website directly from CSS with the :after pseudo-class
 [x] Use the fluid grid for the first time (Make a div for each column)
 [x] Learn how to use icons
+[x] How to put content on a website directly from CSS with the :after pseudo-class
 
 <!-- Section 1: Features
 Title: Get food fast — not fast food.
