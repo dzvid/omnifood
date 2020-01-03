@@ -128,9 +128,9 @@ Title: None
 
 ## Section 3: Build how-it works section (class="section-steps")
 
-[] Draw circles with CSS
-[] A technique to make separation between containers
-[] How to incorporate App Store and Play Store buttons
+[x] Draw circles with CSS
+[x] A technique to make separation between containers
+[x] How to incorporate App Store and Play Store buttons
 
 <!--
 Section 3: How it works
