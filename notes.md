@@ -140,7 +140,7 @@ Title:How it works - Simple as 1, 2, 3
 3.Enjoy your meal after less than 20 minutes. See you the next time!
  -->
 
-## Section 4: Build cities section (class="city-feature")
+## Section 4: Build cities section (class="section-cities")
 
 Key tasks:
 [x] How to use small icons aligned with some text
@@ -169,5 +169,26 @@ London
 1200+ happy eaters
 50+ top chefs
 @omnifood_london
+
+ -->
+
+## Section 5: Build customer testimonials section (class="section-testimonials")
+
+[] How to create a beautiful background-image effect
+[] How to effectively communicate what customers have to say
+
+<!--
+
+Section 5: Customer testimonials
+Title:Our customers can't live without us
+
+Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+(Alberto Duncan)
+
+Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+(Joana Silva)
+
+I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+(Milton Chapman)
 
  -->
