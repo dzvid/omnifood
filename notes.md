@@ -125,3 +125,17 @@ Title: None
 7.Burger with cheddar and bacon
 8.Granola with cherries and strawberries
  -->
+
+## Section 3: Build how-it works section (class="section-steps")
+
+[x] Draw circles with CSS
+[x] A technique to make separation between containers
+[x] How to incorporate App Store and Play Store buttons
+
+<!--
+Section 3: How it works
+Title:How it works - Simple as 1, 2, 3
+1.Choose the subscription plan that best fits your needs and sign up today.
+2.Order your delicious meal using our mobile app or website. Or you can even call us!
+3.Enjoy your meal after less than 20 minutes. See you the next time!
+ -->
