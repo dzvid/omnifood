@@ -84,7 +84,7 @@ Key tasks:
 
 ---
 
-## Build features section
+## Section 1: Build features section (class="section-features")
 
 [x] Use the fluid grid for the first time (Make a div for each column)
 [x] Learn how to use icons
@@ -106,3 +106,22 @@ All our vegetables are fresh, organic and local. Animals are raised without adde
 
 Order anything
 We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you! -->
+
+## Section 2: Build favorite meal section (class="section-meals")
+
+[x] Make a grid with images
+[] Make a "zoom-in" transition, only using CSS
+[] A way to make img elements darker
+
+<!--
+Section 2:Favorite meals
+Title: None
+1.Korean bibimbapwith egg and vegetables
+2.Simple italian pizza with cherry tomatoes
+3.Chicken breast steak with vegetables
+4.Autumn pumpkin soup
+5.Paleo beef steak with vegetables
+6.Healthy baguette with egg and vegetables
+7.Burger with cheddar and bacon
+8.Granola with cherries and strawberries
+ -->

@@ -40,7 +40,7 @@ html {
 
 section {
   padding: 80px 0; /* put whitespace between sections */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /*--------HEADINGS----------*/
@@ -217,4 +217,31 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* --------------------------- */
+/*MEALS SECTION */
+/* --------------------------- */
+
+/* Meals list (ul tag) */
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+/* Photo container (figure tag) */
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
