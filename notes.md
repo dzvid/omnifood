@@ -126,7 +126,7 @@ Title: None
 8.Granola with cherries and strawberries
  -->
 
-## Section 3: Build how-it works section (class="section-steps")
+## Section 3: Build how it works section (class="section-steps")
 
 [x] Draw circles with CSS
 [x] A technique to make separation between containers
@@ -138,4 +138,36 @@ Title:How it works - Simple as 1, 2, 3
 1.Choose the subscription plan that best fits your needs and sign up today.
 2.Order your delicious meal using our mobile app or website. Or you can even call us!
 3.Enjoy your meal after less than 20 minutes. See you the next time!
+ -->
+
+## Section 4: Build cities section (class="city-feature")
+
+Key tasks:
+[x] How to use small icons aligned with some text
+[x] How o style generic links
+
+<!--
+Section 4: Cities
+Title: We're currently in these cities
+
+Lisbon
+1600+ happy eaters
+60+ top chefs
+@omnifood_lx
+
+San Francisco
+3700+ happy eaters
+160+ top chefs
+@omnifood_sf
+
+Berlin
+2300+ happy eaters
+110+ top chefs
+@omnifood_berlin
+
+London
+1200+ happy eaters
+50+ top chefs
+@omnifood_london
+
  -->
