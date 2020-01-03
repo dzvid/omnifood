@@ -140,11 +140,11 @@ Title:How it works - Simple as 1, 2, 3
 3.Enjoy your meal after less than 20 minutes. See you the next time!
  -->
 
-## Section 4: Build cities section (class="")
+## Section 4: Build cities section (class="city-feature")
 
 Key tasks:
-[] How to use small icons aligned with some text
-[] How o style generic links
+[x] How to use small icons aligned with some text
+[x] How o style generic links
 
 <!--
 Section 4: Cities
