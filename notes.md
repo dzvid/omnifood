@@ -110,8 +110,8 @@ We don't limit your creativity, which means you can order whatever you feel like
 ## Section 2: Build favorite meal section (class="section-meals")
 
 [x] Make a grid with images
-[] Make a "zoom-in" transition, only using CSS
-[] A way to make img elements darker
+[x] Make a "zoom-in" transition, only using CSS (Use transform with scale(), and transition properties)
+[x] A way to make img elements darker
 
 <!--
 Section 2:Favorite meals
