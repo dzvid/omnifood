@@ -174,8 +174,9 @@ London
 
 ## Section 5: Build customer testimonials section (class="section-testimonials")
 
-[] How to create a beautiful background-image effect
-[] How to effectively communicate what customers have to say
+Key tasks:
+[x] How to create a beautiful background-image effect
+[x] How to effectively communicate what customers have to say
 
 <!--
 
