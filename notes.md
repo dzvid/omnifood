@@ -193,3 +193,33 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
 (Milton Chapman)
 
  -->
+
+## Section 6: Sign up and pricing plans (class="section-plans")
+
+ <!-- 
+ Section 6: Sign up and pricing plans
+ Title: Start eating healthy today
+ 
+ Plan 1: Premium
+ 399$ per month
+ That’s only 13.30$ per meal
+ 1 meal every day
+ Order 24/7
+ Access to newest creations
+ Free delivery
+ 
+ Plan 2: Pro
+ 149$ per month
+ That’s only 14.90$ per meal
+ 1 meal 10 days/month
+ Order 24/7
+ Access to newest creations
+ Free delivery
+ 
+ Plan 3: Starter
+ 19$ per meal
+ 1 meal
+ Order from 8 am to 12 pm
+ Free delivery
+
+  -->
