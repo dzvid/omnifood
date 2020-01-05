@@ -223,3 +223,20 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
  Free delivery
 
   -->
+
+## Section 7: Contact form
+
+Key concepts and tasks:
+[] How to use a set of HTML elements to create forms: form, label, input, select, option, textarea
+[] How to style these elements
+
+<!--
+Title: We're happy to hear from you
+
+Fields to include:
+Name
+Email
+How did you find us?
+Newsletter
+Drop us a line
+ -->
