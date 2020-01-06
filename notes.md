@@ -224,7 +224,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
 
   -->
 
-## Section 7: Contact form
+## Section 7: Contact form (class="section-form")
 
 Key concepts and tasks:
 [x] How to use a set of HTML elements to create forms: form, label, input, select, option, textarea
@@ -239,4 +239,19 @@ Email
 How did you find us?
 Newsletter
 Drop us a line
+ -->
+
+## Section 8: Footer (class="footer")
+
+<!--
+Title: None
+
+Navigation:
+1. About us
+2. Blog
+3. Press
+4. iOS App
+5. Android App
+
+Also include links to facebook, twitter, google+ and Instagram accounts.
  -->
