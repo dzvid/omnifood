@@ -286,3 +286,7 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 - respond.js: enables browsers to understand and execute css media queries;
 - html5shiv: enable to use and style HTML5 elements in older browsers;
 - selectivizr: utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.
+
+
+### jQuery
+
