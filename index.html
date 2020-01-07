@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="vendors/css/normalize.css" />
     <link rel="stylesheet" href="vendors/css/grid.css" />
     <link rel="stylesheet" href="vendors/css/ionicons.css" />
     <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/media-queries.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
       rel="stylesheet"
@@ -177,6 +180,7 @@
               today.
             </p>
           </div>
+
           <div class="works-step">
             <div>2</div>
             <p>
@@ -184,6 +188,7 @@
               can even call us!
             </p>
           </div>
+
           <div class="works-step">
             <div>3</div>
             <p>
@@ -192,12 +197,16 @@
           </div>
 
           <!-- App Store and Play Store buttons -->
-          <a href="#" class="btn-app"
-            ><img src="resources/img/download-app.svg" alt="App Store"
-          /></a>
-          <a href="#" class="btn-app"
-            ><img src="resources/img/download-app-android.png" alt="Play Store"
-          /></a>
+          <div class="row  btn-apps">
+            <a href="#" class="btn-app"
+              ><img src="resources/img/download-app.svg" alt="App Store"
+            /></a>
+            <a href="#" class="btn-app"
+              ><img
+                src="resources/img/download-app-android.png"
+                alt="Play Store"
+            /></a>
+          </div>
         </div>
       </div>
     </section>
@@ -527,4 +536,8 @@
       </div>
     </footer>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.src.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
 </html>

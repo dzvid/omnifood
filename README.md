@@ -13,6 +13,6 @@ The course covers the following topics:
 - HTML5;
 - CSS3: Most commom CSS properties, basic animations, flexbox, grid;
 - JQuery;
-- Responsive web design and media queries;
+- Responsive web design with media queries;
 - Google Analytics, basic Search Engine Optimization (SEO);
 - Performance optimization (site speed to load).
