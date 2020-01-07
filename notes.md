@@ -1,26 +1,8 @@
+## Folders structure
+
 Resources: Contains code made by myself.
+
 Vendors: contain
-
-## Tips
-
-RESPONSIBLE LAYOUT
-0 - 600px: Phone
-600 - 900px: Tablet portrait
-900 - 1200px: Tablet landscape
-[1200 - 1800]: is where our normal styles apply
-1800px +: Big desktop  
-_/
-/_ \$breakpoint argument choices:
-
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-Use em instead of rem because media queries responds better with em.
-1em = 16px
-
-ORDER to do media queries: base + typography > general layout + grid > page layout > components
 
 ## Prepare environment: First development steps
 
@@ -255,3 +237,52 @@ Navigation:
 
 Also include links to facebook, twitter, google+ and Instagram accounts.
  -->
+
+---
+
+## Responsive web design with media queries
+
+**RESPONSIBLE LAYOUT**
+
+- 0 <= screen size <=480px: Phone
+- 480 < screen size < 768px: Tablet portrait
+- 768 <= screen size < 1024px: Tablet landscape
+- 1024 <= screen size < 1200px: Desktop
+- 1200px+: Big desktop
+
+OR
+
+- 0 - 600px: Phone
+- 600 - 900px: Tablet portrait
+- 900 - 1200px: Tablet landscape
+- 1200 - 1800px: is where our normal styles apply
+- 1800px+: Big desktop
+
+Breakpoint argument names:
+
+- phone
+- tab-port
+- tab-land
+- desktop
+- big-desktop
+
+Use em instead of rem because media queries responds better with em.
+1em = 16px
+
+ORDER to do media queries: base + typography > general layout + grid > page layout > components
+
+### Steps to define media queries:
+
+- Define screen size breakpoints;
+- Create a CSS file to define the media queires;
+- Import the media queries CSS file in the page and add the meta tag (`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`)
+
+
+### CSS Browser prefixes
+
+Allow CSS3 features to work between browsers, use autoprefixer plugin to automagically apply it.
+
+**To enable features in older browsers** - will be used 03 scripts:
+- respond.js: enables browsers to understand and execute css media queries;
+- html5shiv: enable to use and style HTML5 elements in older browsers;
+- selectivizr: utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.

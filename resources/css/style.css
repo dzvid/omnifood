@@ -10,10 +10,12 @@ Base orange color: #e67e22
   /*Remove margin and padding from all elements and sets box-sizing*/
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
 
   color: #555;
@@ -21,6 +23,7 @@ html {
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /* Clear the floats */
@@ -135,6 +138,7 @@ input[type="submit"] {
   border-radius: 200px;
 
   /* CSS3 transitions for small animations */
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -180,6 +184,7 @@ a:visited {
   color: #e67e22;
   border-bottom: 1px solid #e67e22;
   padding-bottom: 1px;
+  -webkit-transform: border-bottom 0.2s, color 0.2s;
   transform: border-bottom 0.2s, color 0.2s;
 }
 
@@ -194,6 +199,14 @@ a:active {
 /* --------------------------- */
 
 header {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(img/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero.jpg);
   background-size: cover;
@@ -211,6 +224,7 @@ header {
   width: 1140px;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -243,6 +257,7 @@ header {
   font-size: 90%; /*18px is 90% from base font size*/
 
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
 }
 
@@ -290,12 +305,17 @@ header {
   opacity: 0.7;
   width: 100%;
   height: auto;
+  -webkit-transform: scale(1.15);
   transform: scale(1.15);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .meal-photo img:hover {
   opacity: 1;
+  -webkit-transform: scale(1.06);
   transform: scale(1.06);
 }
 
@@ -392,6 +412,14 @@ header {
 /* --------------------------- */
 
 .section-testimonials {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0.8))
+    ),
+    url(img/back-customers.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(img/back-customers.jpg);
   background-size: cover;
@@ -445,6 +473,8 @@ cite img {
   border-radius: 5px;
   width: 90%;
   margin-left: 5%; /* Center the container*/
+
+  -webkit-box-shadow: 0 2px 2px #efefef;
 
   box-shadow: 0 2px 2px #efefef;
 }
@@ -557,6 +587,7 @@ footer {
   text-decoration: none;
   border: 0;
   color: #888;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -573,6 +604,7 @@ footer {
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-instagram {
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
