@@ -296,3 +296,5 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 **Scroll to elements:**
 
 - Scroll animation added to the header and navigator buttons.
+
+**Animate.css**: For ready to use CSS animations.
