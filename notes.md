@@ -292,3 +292,9 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 **Plugins used:**
 
 - Waypoints: jQuery plugin to trigger a function when you scroll to an element.
+
+**Scroll to elements:**
+
+- Scroll animation added to the header and navigator buttons.
+
+**Animate.css**: For ready to use CSS animations.
