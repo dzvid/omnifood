@@ -277,16 +277,18 @@ ORDER to do media queries: base + typography > general layout + grid > page layo
 - Create a CSS file to define the media queires;
 - Import the media queries CSS file in the page and add the meta tag (`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`)
 
-
 ### CSS Browser prefixes
 
 Allow CSS3 features to work between browsers, use autoprefixer plugin to automagically apply it.
 
 **To enable features in older browsers** - will be used 03 scripts:
+
 - respond.js: enables browsers to understand and execute css media queries;
 - html5shiv: enable to use and style HTML5 elements in older browsers;
 - selectivizr: utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.
 
-
 ### jQuery
 
+**Plugins used:**
+
+- Waypoints: jQuery plugin to trigger a function when you scroll to an element.
