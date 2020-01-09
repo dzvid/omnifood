@@ -298,3 +298,21 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 - Scroll animation added to the header and navigator buttons.
 
 **Animate.css**: For ready to use CSS animations.
+
+## Step 5: Enhancing page speed
+
+1 - Optimize heavy images;
+2 - Minify CSS and jQuery code.
+
+### Basic Search Engine Optimization (SEO)
+
+- Use metatags;
+- Check if the HTML code produced is valid;
+- Add keywords: in the title, meta description tag, headings and links.
+- Backlinks: Try to make other websites have links to your site.
+
+# Steps to launch the website
+
+1 - Chose and buy a domain name;
+2 - Buy web hosting;
+3 - Upload the website.
