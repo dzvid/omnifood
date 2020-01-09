@@ -311,8 +311,13 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 - Add keywords: in the title, meta description tag, headings and links.
 - Backlinks: Try to make other websites have links to your site.
 
-# Steps to launch the website
+### Steps to launch the website
 
 1 - Chose and buy a domain name;
 2 - Buy web hosting;
 3 - Upload the website.
+
+### Site maintenance
+
+- Keep track of the website;
+- Monitor user's behavior: Will use google analytics for this.
