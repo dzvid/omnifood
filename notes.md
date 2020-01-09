@@ -303,3 +303,10 @@ Allow CSS3 features to work between browsers, use autoprefixer plugin to automag
 
 1 - Optimize heavy images;
 2 - Minify CSS and jQuery code.
+
+### Basic Search Engine Optimization (SEO)
+
+- Use metatags;
+- Check if the HTML code produced is valid;
+- Add keywords: in the title, meta description tag, headings and links.
+- Backlinks: Try to make other websites have links to your site.
