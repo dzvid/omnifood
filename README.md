@@ -6,9 +6,11 @@
 - [HTML5 and CSS3 course content (Omnifood project)](#html5-and-css3-course-content-omnifood-project)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [ABOUT](#about)
-    - [DEMONSTRATION](#demonstration)
     - [PREVIEW](#preview)
-    
+    - [DEMONSTRATION](#demonstration)
+
+
+<!-- PREVIEW -->    
 ### PREVIEW
 
 **Webpage preview**
